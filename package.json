@@ -1,0 +1,33 @@
+{
+  "name": "mock-me",
+  "version": "1.0.0",
+  "description": "git init",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "dev": "nodemon index.js",
+    "lint": "./node_modules/.bin/eslint *.js --fix",
+    "precommit": "npm run lint",
+    "start": "node index.js",
+    "test": "./node_modules/.bin/jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moisessantos/mock-me.git"
+  },
+  "author": "Moisés Santos",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10"
+  }
+}

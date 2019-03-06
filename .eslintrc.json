@@ -1,0 +1,11 @@
+{
+    "root": true,
+    "extends": [
+        "airbnb"
+    ],
+    "globals": {
+        "process": false
+    },
+    "rules": {
+    }
+}
