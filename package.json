@@ -1,13 +1,13 @@
 {
   "name": "mock-me",
   "version": "1.0.0",
-  "description": "git init",
+  "description": "Node app that mocks and serves mocked content",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf node_modules",
     "dev": "nodemon index.js",
     "lint": "./node_modules/.bin/eslint *.js --fix",
-    "precommit": "npm run lint",
+    "precommit": "yarn lint",
     "start": "node index.js",
     "test": "./node_modules/.bin/jest --coverage"
   },
