@@ -19,7 +19,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "express": "^4.16.4",
-    "uuid": "^3.3.3"
+    "uuid": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
