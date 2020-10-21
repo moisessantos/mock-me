@@ -28,6 +28,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "jest": "^25.4.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.6"
   }
 }
