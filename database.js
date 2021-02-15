@@ -20,7 +20,10 @@ const mockResult = (data) => {
   return guid;
 };
 
-const getResult = guid => database[guid] || database.default;
+const getResult = guid => {
+  if(!guid) return defaultContent.default;
+  return database[guid] || null;
+}
 
 const getDatabase = () => database;
 

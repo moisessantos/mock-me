@@ -4,8 +4,10 @@
         "airbnb"
     ],
     "globals": {
-        "process": false
+        "process": false,
+        "fetch": true
     },
+    "plugins": ["jest"],
     "rules": {
     }
 }
